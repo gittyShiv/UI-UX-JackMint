@@ -8,8 +8,7 @@ import WhyJoin from "./components/WhyJoin.jsx";
 import Footer from "./components/Footer.jsx";
 import EnterLottery from "./components/EnterLottery.jsx";
 import ProtocolWhySection from "./components/ProtocolsWhySection.jsx";
-
-
+import VideoBanner from "./components/VideoBanner.jsx";
 
 function App() {
   return (
@@ -17,6 +16,8 @@ function App() {
       <Header />
       <main className="flex-1">
         <Hero />
+        {/* VIDEO BANNER ADDED HERE - RIGHT AT THE TOP OF CONTENT */}
+        <VideoBanner />
         <EnterLottery />
         <Stats />
         <Countdown />
