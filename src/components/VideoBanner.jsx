@@ -12,7 +12,7 @@ export default function VideoBanner() {
         preload="metadata"
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/your-video.mp4" type="video/mp4" />
+        <source src="/videos/your-video.mp4" type="video/mp4" />
         <source src="/your-video.webm" type="video/webm" />
         Your browser does not support the video tag.
       </video>
