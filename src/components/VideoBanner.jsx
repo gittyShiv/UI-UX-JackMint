@@ -24,7 +24,7 @@ export default function VideoBanner() {
       <div className="relative z-10 h-full flex items-center justify-center">
         <div className="text-center px-4">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4 drop-shadow-2xl">
-            🎰 Win Big with JackMint! 🎰
+             Win Big with JackMint! 
           </h2>
           <p className="text-xl text-[#16ffe0] font-semibold drop-shadow-lg">
             Your chance to win starts here
